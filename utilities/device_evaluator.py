@@ -9,6 +9,9 @@ class DeviceEvaluator:
         open_common_ports = set(open_ports).intersection(common_ports)
         open_specific_ports = set(open_ports).intersection(special_ports)
 
+        s = open_common_ports.union(open_specific_ports)
+        not_expected_ports = [x for x in open_ports if x not in s]
+
         certainty_delta = 0
 
         if len(common_ports) == 0:
@@ -26,6 +29,10 @@ class DeviceEvaluator:
             certainty_delta += 5
         else:
             certainty_delta -= 1
+
+        if len(not_expected_ports) > 0:
+            #UPDATE LEARNING CYCLE
+            certainty_delta -= 2
 
         return certainty_delta
 
