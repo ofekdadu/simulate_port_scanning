@@ -1,0 +1,19 @@
+{
+  "version": 1.0,
+  "ports": [
+		{"key" : "Brother&HOST_DEVICE_TYPE.PRINTER","common_ports": [], "special_ports":[]},
+		{"key" : "August&HOST_DEVICE_TYPE.DOORBELL","common_ports": [], "special_ports":[ 554, 8554, 19531]},
+		{"key" : "Samsung&HOST_DEVICE_TYPE.IP_CAMERA","common_ports": [80, 443], "special_ports":[554, 943, 4520, 49152 ]},
+		{"key" : "Western Digital&HOST_DEVICE_TYPE.NAS","common_ports": [], "special_ports":[]},
+		{"key" : "Ring&HOST_DEVICE_TYPE.IP_CAMERA","common_ports": [], "special_ports":[]},
+		{"key" : "Ingenico&HOST_DEVICE_TYPE.POINT_OF_SALE","common_ports": [], "special_ports":[]},
+		{"key" : "Epson&HOST_DEVICE_TYPE.PRINTER","common_ports": [], "special_ports":[]},
+		{"key" : "Philips&HOST_DEVICE_TYPE.CONTROLLER","common_ports": [], "special_ports":[]},
+		{"key" : "Netatmo&HOST_DEVICE_TYPE.IP_CAMERA","common_ports": [80], "special_ports":[5555]},
+		{"key" : "HP&HOST_DEVICE_TYPE.PRINTER","common_ports": [80, 443,  8080], "special_ports":[631, 3910, 3911, 9100, 9220, 53048]},
+		{"key" : "Withings&HOST_DEVICE_TYPE.SCALE","common_ports": [], "special_ports":[]},
+		{"key" : "Google&HOST_DEVICE_TYPE.STREAMING_DONGLE","common_ports": [], "special_ports":[8008, 8009, 9000]},
+		{"key" : "D-Link&HOST_DEVICE_TYPE.IP_CAMERA","common_ports": [80, 554, 8080], "special_ports":[]}
+	]
+
+}
