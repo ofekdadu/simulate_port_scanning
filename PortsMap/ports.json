@@ -1,7 +1,7 @@
 {
   "version": 1.0,
   "ports": [
-		{"key" : "Brother&HOST_DEVICE_TYPE.PRINTER","common_ports": [], "special_ports":[]},
+		{"key" : "Brother&HOST_DEVICE_TYPE.PRINTER","common_ports": [161], "special_ports":[54925, 54926]},
 		{"key" : "August&HOST_DEVICE_TYPE.DOORBELL","common_ports": [], "special_ports":[ 554, 8554, 19531]},
 		{"key" : "Samsung&HOST_DEVICE_TYPE.IP_CAMERA","common_ports": [80, 443], "special_ports":[554, 943, 4520, 49152 ]},
 		{"key" : "Western Digital&HOST_DEVICE_TYPE.NAS","common_ports": [], "special_ports":[]},

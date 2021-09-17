@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9007586d-eb98-4ce9-8c1a-d8fe817b9e41" name="Default Changelist" comment="git">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module.py" beforeDir="false" afterPath="$PROJECT_DIR$/module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortsMap/ports.json" beforeDir="false" afterPath="$PROJECT_DIR$/PortsMap/ports.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +183,7 @@
       <workItem from="1631210541007" duration="27171000" />
       <workItem from="1631708579936" duration="1058000" />
       <workItem from="1631709667951" duration="1595000" />
-      <workItem from="1631870212072" duration="1762000" />
+      <workItem from="1631870212072" duration="3204000" />
     </task>
     <task id="LOCAL-00001" summary="git">
       <created>1631708618543</created>
@@ -227,26 +227,26 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1052" height="466" key="DebuggerActiveHint/2560.358.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1631699728969" />
-    <state width="2517" height="527" key="GridCell.Tab.0.bottom" timestamp="1631873295538">
+    <state width="2517" height="527" key="GridCell.Tab.0.bottom" timestamp="1631874468675">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="492" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1631465649485" />
-    <state width="2517" height="527" key="GridCell.Tab.0.bottom/2560.358.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1631873295538" />
-    <state width="2517" height="527" key="GridCell.Tab.0.center" timestamp="1631873295537">
+    <state width="2517" height="527" key="GridCell.Tab.0.bottom/2560.358.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1631874468675" />
+    <state width="2517" height="527" key="GridCell.Tab.0.center" timestamp="1631874468675">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="492" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1631465649485" />
-    <state width="2517" height="527" key="GridCell.Tab.0.center/2560.358.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1631873295537" />
-    <state width="2517" height="527" key="GridCell.Tab.0.left" timestamp="1631873295537">
+    <state width="2517" height="527" key="GridCell.Tab.0.center/2560.358.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1631874468675" />
+    <state width="2517" height="527" key="GridCell.Tab.0.left" timestamp="1631874468675">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="492" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1631465649484" />
-    <state width="2517" height="527" key="GridCell.Tab.0.left/2560.358.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1631873295537" />
-    <state width="2517" height="527" key="GridCell.Tab.0.right" timestamp="1631873295537">
+    <state width="2517" height="527" key="GridCell.Tab.0.left/2560.358.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1631874468675" />
+    <state width="2517" height="527" key="GridCell.Tab.0.right" timestamp="1631874468675">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="492" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1631465649485" />
-    <state width="2517" height="527" key="GridCell.Tab.0.right/2560.358.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1631873295537" />
+    <state width="2517" height="527" key="GridCell.Tab.0.right/2560.358.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1631874468675" />
     <state x="1043" y="413" key="RollbackChangesDialog" timestamp="1631708759448">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -276,12 +276,27 @@
           <line>3</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utilities/device_evaluator.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utilities/device_evaluator.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utilities/device_evaluator.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/checkpoint$module.coverage" NAME="module Coverage Results" MODIFIED="1631707973212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/simulate_port_scanning$module.coverage" NAME="module Coverage Results" MODIFIED="1631873295521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/simulate_port_scanning$module.coverage" NAME="module Coverage Results" MODIFIED="1631874468667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/checkpoint$mongodb.coverage" NAME="mongodb Coverage Results" MODIFIED="1631463414734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/checkpoint$json_parser.coverage" NAME="json_parser Coverage Results" MODIFIED="1631696720266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/checkpoint$portscanner.coverage" NAME="portscanner Coverage Results" MODIFIED="1631456942812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
