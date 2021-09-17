@@ -16,7 +16,7 @@ def main():
 
     devices = mongo_client.find_devices()
     for device in devices:
-        print("type: %s, brand: %s , rank:%s, old rank %s" % (device['type'], device['brand'], device['rank'], device.get('old_rank')))
+        print("device id: %s , type: %s, brand: %s , rank:%s, old rank %s" % (device['_id'], device['type'], device['brand'], device['rank'], device.get('old_rank')))
 
 def add_module_to_company(mongo_client:MongoDBClient, port_scanner:PortsScanner, device_evaluator: DeviceEvaluator, company):
     devices = mongo_client.find_devices(dict_to_query = {'domain': company})
